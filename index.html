@@ -1,0 +1,44 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Enciptador Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/logo.png" alt="Logo encriptador alura" id="logo">
+        </header>
+        <main>
+            <section class="seccion1">
+                <textarea class="mensaje" required placeholder="Ingrese el texto aqui"></textarea>
+                <div class="seccion-botones">
+                    <input type="button" class="boton-encriptar" value="Encriptar">
+                    <input type="button" class="boton-desencriptar" value="Desencriptar">
+                </div>
+            </section>
+            <section class="seccion2">
+                <div class="seccion-muneco">
+                    <img src="imagenes/Muñeco.png" alt="muñeco alura">
+                </div>
+                <div class="seccion-h3">
+                    <h3>Ningún mensaje fue encontrado</h3>
+                </div>
+                <div class="seccion-parrafo">
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <div class="seccion-resultado">
+                    <h3>Mensaje Encriptado:</h3>
+                    <p class="texto-encriptado"></p>
+                </div>
+                <div class="seccion-copiar">
+                    <input type="button" value="Copiar" class="boton-copiar">
+                </div>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+        <script src="encriptador.js"></script>
+    </body>
+</html>
